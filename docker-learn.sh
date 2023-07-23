@@ -29,3 +29,9 @@ docker container inspect  strange_neumann
 
 # info about memory utilization of container etc
 docker container stats  strange_neumann
+
+# shell inside new container
+docker  run -it
+
+#shell inside existing container
+docker exec -it
